@@ -15,9 +15,11 @@
 # If no file found, it will try to fetch it from
 # https://snowballstem.org/dist/libstemmer_c.tgz
 
-set(STEMMER_REMOTE "https://snowballstem.org/dist/libstemmer_c.tgz")
+#set(STEMMER_REMOTE "https://snowballstem.org/dist/libstemmer_c.tgz")
+set(STEMMER_REMOTE "https://github.com/flagar/snowball/raw/eade0e33db49e7c051ab996e186ee0155be5641f/libstemmer_c_moma.tgz")
 set(STEMMER_BUNDLEZIP "${LIBS_BUNDLE}/libstemmer_c.tgz")
-set(STEMMER_SRC_MD5 "f8288a861db7c97dc4750020c7c7aa6f")
+#set(STEMMER_SRC_MD5 "f8288a861db7c97dc4750020c7c7aa6f")
+set(STEMMER_SRC_MD5 "8c131782b025a231a1166403cd0d3eef")
 
 cmake_minimum_required(VERSION 3.17 FATAL_ERROR)
 include(update_bundle)
